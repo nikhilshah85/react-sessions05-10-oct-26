@@ -1,0 +1,20 @@
+We need to be good at developing the components
+there are 2 ways to do so, 
+		components can be developed/designed in 2 ways/mode
+	a. function based component - suitable for developers coming from deep JS knowledge
+	b. class based component - suitable for developers coming from deep-good OOPS knowledge(java, C#, c++ etc)
+
+
+	imp - based on the way you develop component, the internal eco system changes during implementation
+		eg. state management is handled using key pair values in class based component
+			and same is handled using Hooks in function based component
+
+			variable declaration way is also different
+	--things are again different when u choose different options based on ur app profile
+		typescript
+		typescript + react compiler
+		javascript
+		javascript + react compiler
+
+
+	this matters as components needs to talk to each other, pass data to each other

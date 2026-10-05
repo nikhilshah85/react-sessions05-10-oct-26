@@ -1,0 +1,116 @@
+
+
+
+				W3C - Web Revolution 
+
+		1. some where in 2012-14
+			a. People started to switch from Desktops/Laptops towards Mobile phones and IPads
+				so the problem for web develoers is from their habbit of createing web pages 		which will fit desktop/laptop, needs a shift so that pages can fit on mobile browsers
+
+		2. Habbits of users also changed
+			image/excel/pdf
+			video
+			contents/storage
+		3. Connections - People moved from Wifi/Lan/Cables to
+			Mobile data - this is always fluctuating / not stable 
+		4. Maps on phone / Navigator 
+
+		5. HTML/CSS and JS had their own technical problems 
+---------------------------------------------------------------------------------------------
+			W3C - HTML3, CSS3, tried a lot to improve JS with jQuery etc... but could not
+			on the other hand - ECMA came up with ES - ECMAScript, very strong, OOPS based, Compiled and had similar features of a programming language 
+			and W3C and ECMA joined up by making modifications and stuff to give us 
+			ES6 - this was good but problem was syntax
+
+		Microsoft came up with a wrapper on ES and gave up compiler and language which is similar to JAVA / C# - called typescripe
+
+		Google came up with NODE on the other had - web server
+		XML to JSON - for data exchange
+		WebServices to REST Principles - from SOAP messages to JSON
+
+
+==========
+		Open Source communities came up with lots of Patters to integrate HTML5/CSS3/ES
+			Twitter was the first1 to give something to the world - Bootstrap (CSS/UI)
+	other open source were working on an Idea for web apps - Components based Delivery of web contents
+	other open source community was working on a different idea - SPA - 
+		let developers create all the HTML pages along with CSS and ES(component) - and then assemble everything in 1 page, and send this page to the user - do an internal navigation - in memory 
+
+		facebook was struggling the most - they took over both the communities + some more 
+			had a proper research done, beautified the concepts of Components + SPA + Short hand expression JSX, FLUX framework (now called REDUX), REST API calls, data management, DOM was left out and developed their own DOM - virtual dom, etc.... and lot more 
+		and tested all the features, developed an eco system for facebook, tried an social media app from scratch based on this new framework  - now called as Instagram 
+		and gave the same framework to the world as open source 
+
+		and thus develop the component based SPA application - 
+		what makes it more easy is 
+			HTML5. CSS3, and OOPS and develop the app, just understand the features/eco system and you are all good as a web developer
+
+-------------------------------------------------------------------------------------------------------
+		1. NodeJS
+		2. VS Code
+		3. React 
+			in past (in 2024-25) - we used 
+				npm install @create-react-app (this will install react dev on ur machine)
+					for SPA again install	
+				npm install @react-router-dom
+					for UI - HTML5, CSS3 and other features
+				npm install ..........
+			
+			learn similar process for angular / karma / mocha / chai / jsmine etc..........
+
+			for style - u have CSS / SCSS / SAAS many other 
+
+			instead we now use Vite - which will allow u to create any application in a similar way 
+
+
+
+		4. Express - REST API - 
+		5. Mongo for data storage 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+	
+	
+
+
+
+
+
+
+
+
+			
+		
+			
+			
+					
+			
