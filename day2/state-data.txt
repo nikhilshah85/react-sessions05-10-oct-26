@@ -1,0 +1,26 @@
+State can hold data in 4 formats
+
+a. Premitive datatype : string,int, double 
+	firstName: 'Nikhil'
+b. Primitive data arrar, string, int, 
+	skills: ['','','','']
+
+c. json object 
+	{ city: 'Mumbai'}
+	{address : {
+			 office: {
+         		 street: "20 Ingram Street",
+         		 city: "New York",
+         		 state: "NY"
+        		},
+			country: 'USA'
+		}
+	}
+	
+d. json object array 
+		productList : [
+		{pid:101, pName:'Pepsi',pPrice:3},
+		{},
+		{}]
+
+it ideally receives the data from API calls

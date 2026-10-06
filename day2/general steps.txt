@@ -1,0 +1,55 @@
+
+
+
+Application
+		index.html (global file, which goes to clients browser)
+		index.css (global css file)
+		
+			App.jsx - root component mapped to index.html (can have its own css)
+				home.jsx (they can have their css)
+				about.jsx
+				contact.jsx
+				news.jsx 
+				...
+				...
+
+
+		SPA - is a concept - a patter for web apps
+		feature name in react / angular is called as Routing
+---------------------------------------------------------------------------------------------------
+		1. in ur day2 folder, create a new react app using vite
+			first-spa-app
+			choose
+				React
+				Javascript
+		2. remove all the content from app.jsx
+		3. let us create a class based App component in app.jsx
+		4. create below class based components
+			Home.jsx
+			About.jsx
+			Contact.jsx
+			News.jsx	
+			Login.jsx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			

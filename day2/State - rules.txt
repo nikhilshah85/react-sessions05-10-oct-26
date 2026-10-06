@@ -1,0 +1,5 @@
+State - can be updated
+props - cannot be updated - they are immutable
+
+In react - data flows from top towards bottom 
+	i.e -> from parent to child, and not from child to parent - it is 1 way
