@@ -1,0 +1,36 @@
+.add-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+}
+
+.add-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-container input,
+.add-container textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.add-container textarea {
+  height: 100px;
+}
+
+.add-container button {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+}

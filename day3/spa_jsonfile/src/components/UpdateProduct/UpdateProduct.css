@@ -1,0 +1,38 @@
+.update-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+}
+
+.update-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.update-container input,
+.update-container textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.update-container textarea {
+  height: 100px;
+}
+
+.update-container button {
+  padding: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.update-not-found {
+  color: red;
+}
+
+.update-success {
+  color: green;
+  font-weight: bold;
+}

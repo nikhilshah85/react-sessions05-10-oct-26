@@ -1,0 +1,36 @@
+.search-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 25px;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.search-box input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.search-result {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.search-result img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.not-found {
+  color: red;
+  margin-top: 25px;
+}

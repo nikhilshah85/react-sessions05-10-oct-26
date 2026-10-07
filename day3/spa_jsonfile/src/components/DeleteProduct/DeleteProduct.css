@@ -1,0 +1,39 @@
+.delete-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+}
+
+.delete-container input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+.delete-product {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.delete-product img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.delete-product button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.delete-not-found {
+  color: red;
+}
+
+.delete-success {
+  color: green;
+  font-weight: bold;
+}
