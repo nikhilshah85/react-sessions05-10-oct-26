@@ -1,0 +1,20 @@
+1. in day 3 - create a new app
+	name it as react_SPA_shoppingAPP
+2. install router
+	npm install create-router-app
+3. delete everything from app.jsx, app.css, index.css and 
+4. just mention Shopping app in H1 on top of app.jsx
+5. create a new folder, components under src, add below files
+	productlist.jsx
+	searchproduct.jx
+	addproduct.jsx
+	deleteproduct.jsx
+	updateproduct.jsx
+	navbar.jsx
+	in app.css use the css file content from yesterday
+	
+6. configure routing 
+	test the application for navigation
+
+7. in app.jsx,lets create a state variable products:[]
+8. lets get the data from REST
