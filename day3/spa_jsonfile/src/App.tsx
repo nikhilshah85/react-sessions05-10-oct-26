@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 
-import productsData from "./assets/products.json";
+ import productsData from "./data/products.json";
 
 import type { Product } from "./components/models/product";
 
@@ -68,9 +68,7 @@ function App() {
           <Route
             path="/"
             element={
-              <ProductList
-                products={products}
-              />
+              <ProductList/>
             }
           />
 
@@ -86,10 +84,7 @@ function App() {
           <Route
             path="/add"
             element={
-              <AddProduct
-                products={products}
-                onAdd={addProduct}
-              />
+              <AddProduct/>
             }
           />
 
