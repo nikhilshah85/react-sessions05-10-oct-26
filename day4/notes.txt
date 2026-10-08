@@ -1,0 +1,77 @@
+					React
+	challenges 
+		A. state management(data - userdata)
+		B. props - data available as a prop to child, can be passed to immediate child
+			there are JS techniques, to share this data with unrelated component
+		C. Functions - shareing the same function and using them across the components
+			functions also wants to use the state (data from state)
+		d. this allows data to flow only from top to bottom
+			parent can pass the data to child, but child cannot pass it to parent
+			parent can update the state, child cannot, to achive this, we create function in parent, pass the function control to child, child will call the function using props and make change, but data still remains with the parent
+
+				parent -> child
+				child -> parent --XXXXXXX--
+		
+
+		and then other problems and challenges
+		react does not have any design pattern implementation 
+
+		thus open source community came out with a design pattern - FLUX 
+
+		which was really good, Facebook tried it, studied it, improvised it and adopted it for their
+		applications, which was successful 
+
+		and they bout this open source community and now they are maintaining it
+
+	--- they gave this as an open source - with a name called REDUX
+
+
+			React is just 1 file .jsx
+				where u put state, props, functions, events, contuctors, data, variables 
+				everything in 1 file
+
+			Redux design pattern divides the same code into 4 separate file
+				a. store - this where we declare data, variables
+					eg. const firstName: 'Nikhil'
+					    const counter:0
+				b. actions - this are for functions
+					function greetUser() => { return 'Welcome ' + firstName}
+					function incrementCounter();
+				c. reducers - this is the 1 which makes changes to state
+					update the state
+					eg. firstName:'Nikhil Shah';
+					incrementCounter()
+					{
+					     counter = counter + 1;
+					    return counter;
+					}
+				d. dispatcher
+					addCounter()
+					{
+						return incrementCounter;
+					}
+					this is the 1 connect to ur UI, on a click of a button
+
+
+			<button onClick={this.addCounter()}/>
+
+		as this this is lengthy and needs more files, a better approach came up recently
+			to have everything developed in a single file and we call it as slice
+			and then connect this slice to the component - how ?
+			hooks and providers
+		this is available as redux-toolkit
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 		
+		
